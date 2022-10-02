@@ -6,7 +6,7 @@ For web application implementation, refer to https://github.com/szekee/chickenra
 
 ## Problem Statement
 
-As Singapore moves towards Smart Nation initiative, bad actors continue to use phishing attacks to obtain precious information from unsuspecting users. Furthermore, there is a exponential increase of phishing attacks due to Covid-19 and the use of links, QR codes and more. Our project aims to use ML models to detect and prevent such attacks.
+As Singapore moves towards Smart Nation initiative, bad actors continue to use phishing attacks to obtain precious information from unsuspecting users. Furthermore, there is a exponential increase of phishing attacks using links, QR codes and more. This issue is exacerbated by Covid-19 as more Singaporeans shift online. Our project aims to use ML models to detect and prevent such attacks.
 
 - 25% of Singapore’s population is predicted to be aged 65 and older by 2030, versus 14.4% in 2019. 
 - As Singapore marches towards a Smart Nation Initiative. It has to take into account the massive eldery population that are vulnerable to such phishing attacks.

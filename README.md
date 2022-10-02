@@ -36,6 +36,7 @@ Our team complied a (non-exhaustive) list of features and built feature extracti
 - Number of website forwardings
 
 Our team also made use of multiple models to build 5 main models each with Different Features and Feature Extraction methods.
+
 Our final model is an ensemble comprising of the 5 individual Models:
 
 | Individual Models  | Test Accuracy |
@@ -48,12 +49,17 @@ Our final model is an ensemble comprising of the 5 individual Models:
 
 ## Datasets
 Datasets were obtained from various sources.
+
 https://www.kaggle.com/code/hamzamanssor/detection-malicious-url-using-ml-models/data 
+
 https://research.aalto.fi/en/datasets/phishstorm-phishing-legitimate-url-dataset 
+
 https://www.kaggle.com/code/mpwolke/phishing-detection-with-same-bait 
+
 https://github.com/shreyagopal/Phishing-Website-Detection-by-Machine-Learning-Techniques/tree/master/DataFiles 
 
 All datasets comprises of an URL as an input variable and a label as an output variable → Features of the URL will be extracted by the different models → Features will be used in the determination of whether URL is legitimate or phishing
+
 (Dataset summary of the Models is shown below - train-test split is a variation of 80-20 and 70-30)
 
 | Individual Models  | Data |
@@ -65,6 +71,7 @@ All datasets comprises of an URL as an input variable and a label as an output v
 | Model 5 (WD)  | 5,714 legitimate vs 5,714 phishing |
 
 Some general functions used to extract the features from the URLs include, but are not limited to:
+
 Urlparse, tld, tldextract, re, ipaddress, sys, whois, datetime 
 
 
